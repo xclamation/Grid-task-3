@@ -5,7 +5,7 @@ Docker
 
 Clone the repository:
 ```bash
-git clone https://github.com/xclamation/simple-pub-sub-app.git
+git clone https://github.com/xclamation/Grid-task-3.git
 ```
 
 Change into the project directory:
