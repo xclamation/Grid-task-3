@@ -1,27 +1,27 @@
-Prerequisites
+# Prerequisites
 Docker
 
-Getting Started
+# Getting Started
 
 Clone the repository:
-```sh
+```bash
 git clone https://github.com/xclamation/simple-pub-sub-app.git
-```sh
+```
 
 Change into the project directory:
-```sh
+```bash
 cd simple-pub-sub-app
-```sh
+```
 
 Start the RabbitMQ container:
-```sh
+```bash
 docker-compose up -d rabbitmq
-```sh
+```
 
 Start the producer and consumer containers:
-```sh
+```bash
 docker-compose up
-```sh
+```
 The producer will start sending messages to RabbitMQ, and the consumer will start processing them.
 
 Stopping the Containers
