@@ -29,6 +29,6 @@ The producer will start sending messages to RabbitMQ, and the consumer will star
 To stop the producer and consumer containers, run the following command:
 ```sh
 docker-compose down
-```sh
+```
 
 This will also remove the containers and the network.
