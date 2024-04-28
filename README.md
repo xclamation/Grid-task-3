@@ -24,7 +24,7 @@ docker-compose up
 ```
 The producer will start sending messages to RabbitMQ, and the consumer will start processing them.
 
-Stopping the Containers
+# Stopping the Containers
 
 To stop the producer and consumer containers, run the following command:
 ```sh
