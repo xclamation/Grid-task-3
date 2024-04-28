@@ -3,22 +3,23 @@ Docker
 
 # Getting Started
 
-Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/xclamation/Grid-task-3.git
 ```
 
-Change into the project directory:
-```bash
-cd simple-pub-sub-app
-```
+2. Navigate to the project directory where docker-compose.yml is located:
 
-Start the RabbitMQ container:
+```bash
+cd /project/directory
+````
+
+3. Start the RabbitMQ container:
 ```bash
 docker-compose up -d rabbitmq
 ```
 
-Start the producer and consumer containers:
+4. Start the producer and consumer containers:
 ```bash
 docker-compose up
 ```
