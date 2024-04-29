@@ -1,3 +1,6 @@
+# Simple Pub-Sub App
+This is a simple pub-sub application that produces and consumes data using RabbitMQ as a message broker. The application consists of two parts: a producer that periodically sends data to RabbitMQ for calculation, and a consumer that processes the data and writes the result to a log. If the operation fails, the message is rejected to a dead letter queue (DLQ).
+
 # Prerequisites
 Docker
 
